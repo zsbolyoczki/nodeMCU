@@ -24,7 +24,7 @@ wifi.setmode(wifi.STATION)
 
 wifi.sta.sethostname("homero")
   
-wifi.sta.config {ssid="SSID-NAME", pwd="WIFI-PASSWORD12"}
+wifi.sta.config {ssid="SSID-NAME", pwd="WIFI-PASSWORD"}
 
 ip, nm, gw=wifi.sta.getip()
 
